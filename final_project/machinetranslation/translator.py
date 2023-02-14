@@ -34,3 +34,4 @@ def french_to_english(french_text):
     model_id='fr-en').get_result()
     english_text=english_text["translations"][0]['translation']#Extract the text from the dictionary
     return english_text
+
